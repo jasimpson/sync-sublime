@@ -1,10 +1,12 @@
 {
+    "theme": "Soda Dark 3.sublime-theme",
+
 	"ensure_newline_at_eof_on_save": false,
 	"font_size": 13,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Markdown"
+		"Markdown",
+		"Vintage"
 	],
 	"rulers":
 	[
