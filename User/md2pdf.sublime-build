@@ -1,5 +1,5 @@
 {
-    "shell_cmd": "pandoc --template=\"/Users/jsimpson/.pandoc/default.latex\" -V geometry:margin=1in -o \"$file.pdf\" \"$file\" && open -a Preview \"$file.pdf\"",
+    "shell_cmd": "pandoc --template=\"/Users/jsimpson/.pandoc/default.latex\" -V geometry:margin=1in -V mainfont=Georgia -V sansfont=Arial -V fontsize=10pt -o \"$file.pdf\" \"$file\" && open -a Preview \"$file.pdf\"",
     "selector": "text.html.markdown",
     "path": "/usr/texbin:$PATH"
 }

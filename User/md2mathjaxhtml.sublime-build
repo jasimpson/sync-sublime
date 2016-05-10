@@ -1,0 +1,6 @@
+{
+    //"shell_cmd": "pandoc -s --mathjax -o \"$file.html\" \"$file\" && open -a Safari \"$file.html\"",
+    "shell_cmd": "pandoc -s --mathjax -o \"$file.html\" \"$file\" && open -a Safari \"$file.html\"",
+    "selector": "text.html.markdown",
+    "path": "/usr/texbin:$PATH"
+}
